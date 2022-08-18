@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:statefulwidget_workshop/attraction_scroll.dart';
 import 'package:statefulwidget_workshop/counter.dart';
 import 'package:statefulwidget_workshop/attraction.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Attraction(),
+      home: AttractionScroll(),
     );
   }
 }
