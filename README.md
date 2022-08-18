@@ -20,3 +20,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ![ScreenshotLikeButtonBefore](assets/images/Screenshot1.png)
 
+![ScreenshotLikeButtonAfter](assets/images/Screenshot2.png)
