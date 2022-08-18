@@ -1,6 +1,7 @@
 # statefulwidget_workshop
 
-A new Flutter project.
+Stateful widget is a widget that has internal state.
+Like a button Increment and Decrement.
 
 ## Getting Started
 
@@ -18,4 +19,4 @@ samples, guidance on mobile development, and a full API reference.
 #ScreenShot
 
 ![ScreenshotLikeButtonBefore](assets/images/Screenshot1.png)
-![ScreenshotLikeButtonAfter](assets/images/Screenshot2.png)
+
