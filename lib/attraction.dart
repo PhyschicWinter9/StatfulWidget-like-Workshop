@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:statefulwidget_workshop/counter.dart';
 
 class Attraction extends StatefulWidget {
   const Attraction({Key? key}) : super(key: key);
@@ -61,13 +62,29 @@ class _AttractionState extends State<Attraction> {
                             IconButton(
                               onPressed: () {
                                 setState(() {
-                                  if (Like){
-                                    Like = false;
-                                    likecounter--;
-                                  } else {
-                                    Like = true;
+
+                                  // if else function Method
+                                  // if (Like){
+                                  //   Like = false;
+                                  //   likecounter--;
+                                  // } else {
+                                  //   Like = true;
+                                  //   likecounter++;
+                                  // }
+                                  
+                                  //Ternary Operator Method
+                                  // Like = !Like;
+                                  // likecounter += Like ? 1 : -1;
+
+
+                                  // if else and ternary operator Method
+                                  Like = !Like;
+                                  if (Like) {
                                     likecounter++;
+                                  } else {
+                                    likecounter--;
                                   }
+
                                 });
                               },
                               icon: Like
